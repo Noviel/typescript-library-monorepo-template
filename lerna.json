@@ -1,0 +1,16 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/**"
+  ],
+  "publish": {
+    "npmClient": "npm",
+    "allowBranch": [
+      "master",
+      "canary"
+    ],
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "independent"
+}
