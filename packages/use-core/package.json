@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "@noviel/use-core",
   "author": "Alexander \"Snov\" Semenchenko",
   "main": "dist/index.js",
@@ -39,7 +39,7 @@
     "trailingComma": "es5"
   },
   "dependencies": {
-    "@noviel/core": "0.1.0"
+    "@noviel/core": "^0.1.1"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
