@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/noviel/typescript-monorepo-library-template.git",
-    "directory": "packages/exupery-core"
+    "directory": "packages/use-core"
   },
   "engines": {
     "node": ">=10"
@@ -44,5 +44,6 @@
   "devDependencies": {
     "cross-env": "^7.0.2",
     "tsdx": "^0.13.2"
-  }
+  },
+  "gitHead": "465b4f8ac9695c72bd7fc144a5b19758e475a5eb"
 }
