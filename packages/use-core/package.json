@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/noviel/typescript-library-monorepo-template.git",
+    "url": "git://github.com/Noviel/typescript-library-monorepo-template.git",
     "directory": "packages/use-core"
   },
   "engines": {
@@ -45,5 +45,5 @@
     "cross-env": "^7.0.2",
     "tsdx": "^0.13.2"
   },
-  "gitHead": "a30eda9912bd77e3d06ee16455f417b2956543ed"
+  "gitHead": "b19770e0373d79a10f819694edc830aa940a254c"
 }
