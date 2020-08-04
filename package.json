@@ -11,6 +11,8 @@
     "lerna": "lerna",
     "start": "tsdx watch",
     "build": "lerna run build",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
     "prepublish": "lerna run prepublish"
   },
   "dependencies": {
