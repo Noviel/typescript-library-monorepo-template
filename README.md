@@ -52,3 +52,9 @@ yarn lerna publish
 ```
 
 Publish every changed package to registry. It will build packages before publish.
+
+## Add dependency
+
+```
+yarn lerna add <package> --scope=@<scoped/package>
+```
