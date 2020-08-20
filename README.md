@@ -7,8 +7,11 @@
 - Multiple packages management with Lerna.
 - Scoped private NPM packages with GitHub Packages.
 - Basic extendable CI process with GitHub Actions.
+- Ability to add CLI packages.
 
-## GitHub Packages
+## Setup
+
+### GitHub Packages
 
 To use Github Packages registry you must [provide](https://github.com/settings/tokens/new) `Personal access token` with `read:packages` and `write:packages` scopes.
 
@@ -22,7 +25,7 @@ always-auth=true
 
 `OWNER` is the name of the user or organization account that owns the repository.
 
-### Multiple packages
+#### Multiple packages
 
 [GitHub docs on multiple packages at the same repository](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#publishing-multiple-packages-to-the-same-repository)
 
@@ -39,22 +42,39 @@ In `package.json` of every package:
 `OWNER` is the name of the user or organization account that owns the repository.
 `REPOSITORY` is the name of the repositroy containing the package.
 
-## GitHub Actions
+### GitHub Actions
 
 Personal access token with packages scopes must be provided to GitHub Actions as `NPM_TOKEN` (or you can rename it in `.github/workflows/main.yml):
 
 To add a token to the repository: `Settings` -> `Secrets` -> `New secret`.
 
-## Publish
+## Workflows
 
-```
+### Add new package
+
+1. Use `template-demo-core` package `as a reference (package must include`package.json`,`tsconfig.json`and`src/index.ts`).
+2. Run `yarn lerna bootstrap`.
+
+### Add CLI package
+
+Use `template-demo-cli` package as a reference.
+
+### Publish
+
+```sh
 yarn lerna publish
 ```
 
 Publish every changed package to registry. It will build packages before publish.
 
-## Add dependency
+### Add dependency to a package
 
-```
+```sh
 yarn lerna add <package> --scope=@<scoped/package>
+```
+
+### Build packages
+
+```sh
+yarn build
 ```
