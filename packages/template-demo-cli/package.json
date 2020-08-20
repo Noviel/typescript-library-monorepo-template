@@ -1,6 +1,6 @@
 {
   "version": "0.2.0",
-  "name": "@noviel/tenplate-demo-cli",
+  "name": "@noviel/template-demo-cli",
   "author": "Alexander \"Snov\" Semenchenko",
   "main": "dist/index.js",
   "module": "dist/template-demo-cli.esm.js",
