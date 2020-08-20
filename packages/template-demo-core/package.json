@@ -1,9 +1,9 @@
 {
-  "version": "0.1.8",
-  "name": "@noviel/use-core",
+  "version": "0.1.7",
+  "name": "@noviel/template-demo-core",
   "author": "Alexander \"Snov\" Semenchenko",
   "main": "dist/index.js",
-  "module": "dist/core.esm.js",
+  "module": "dist/template-demo-core.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/Noviel/typescript-library-monorepo-template.git",
-    "directory": "packages/use-core"
+    "directory": "packages/template-demo-core"
   },
   "engines": {
     "node": ">=10"
@@ -37,9 +37,6 @@
     "semi": true,
     "singleQuote": true,
     "trailingComma": "es5"
-  },
-  "dependencies": {
-    "@noviel/core": "^0.1.7"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
