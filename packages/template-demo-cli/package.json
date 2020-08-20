@@ -1,5 +1,5 @@
 {
-  "version": "0.1.8",
+  "version": "0.2.0",
   "name": "@noviel/tenplate-demo-cli",
   "author": "Alexander \"Snov\" Semenchenko",
   "main": "dist/index.js",
@@ -42,7 +42,7 @@
     "trailingComma": "es5"
   },
   "dependencies": {
-    "@noviel/template-demo-core": "^0.1.7"
+    "@noviel/template-demo-core": "^0.2.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
